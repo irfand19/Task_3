@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="irfandp.task_3.RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/drawable_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawable_layout2"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up Page"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:paddingTop="35dp"
+            android:paddingBottom="105dp"
+            android:textColor="#ffffff"
+            />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Name"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColorHint="#ffffff"
+            android:paddingBottom="16dp"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:id="@+id/edt_email2"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Email"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColorHint="#ffffff"
+            android:paddingBottom="16dp"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:id="@+id/edt_pass2"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColorHint="#ffffff"
+            android:paddingBottom="16dp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#FFE0B2"
+        android:paddingTop="35dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="100dp"
+            android:layout_height="32dp"
+            android:text="Confirm"
+            android:textSize="17sp"
+            android:background="#448AFF"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
