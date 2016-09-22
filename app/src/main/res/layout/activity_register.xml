@@ -26,7 +26,7 @@
             />
 
         <EditText
-            android:id="@+id/edt_name"
+            android:id="@+id/et_name"
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -38,7 +38,7 @@
             android:textColor="#ffffff"/>
 
         <EditText
-            android:id="@+id/edt_email2"
+            android:id="@+id/et_email2"
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -50,7 +50,7 @@
             android:textColor="#ffffff"/>
 
         <EditText
-            android:id="@+id/edt_pass2"
+            android:id="@+id/et_pass2"
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -66,21 +66,54 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="3"
+        android:layout_weight="2"
         android:background="#FFE0B2"
-        android:paddingTop="35dp"
+        android:paddingTop="10dp"
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_confirm"
+            android:id="@+id/btn_send"
             android:layout_width="100dp"
             android:layout_height="32dp"
-            android:text="Confirm"
+            android:text="Send"
             android:textSize="17sp"
             android:background="#448AFF"
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tv_respond"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New"
+            android:id="@+id/tv_respond2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text"
+            android:id="@+id/tv_result"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
 
 
     </LinearLayout>

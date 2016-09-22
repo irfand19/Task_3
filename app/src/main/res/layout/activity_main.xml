@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login Page"
+            android:text="Log In Page"
             android:textAlignment="center"
             android:textSize="28sp"
             android:paddingTop="35dp"
@@ -26,6 +26,7 @@
             />
 
         <EditText
+            android:id="@+id/edt_email"
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -33,14 +34,16 @@
             android:textAlignment="center"
             android:textSize="18sp"
             android:textColorHint="#ffffff"
-            android:paddingBottom="25dp"
+            android:paddingBottom="16dp"
             android:textColor="#ffffff"/>
 
         <EditText
+            android:id="@+id/edt_pass"
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:hint="Password"
+            android:inputType="textPassword"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textColorHint="#ffffff"
@@ -61,24 +64,25 @@
             android:id="@+id/btn_login"
             android:layout_width="100dp"
             android:layout_height="32dp"
-            android:text="Login"
+            android:text="Log in"
             android:textSize="18sp"
             android:background="#448AFF"
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:layout_gravity="center_horizontal" />
+
         <TextView
+            android:id="@+id/edt_reg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="18dp"
             android:textSize="15sp"
             android:text="Click Here for Sign Up"
             android:textStyle="italic"
+            android:textColorLink="#ff0000"
             android:textAlignment="center"/>
 
     </LinearLayout>
-
-
 
 
 </LinearLayout>
