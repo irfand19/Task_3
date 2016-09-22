@@ -12,6 +12,7 @@
     tools:context="irfandp.task_3.HomeActivity">
 
     <TextView
+        android:id="@+id/tv_shared_preference"
         android:paddingTop="160dp"
         android:paddingBottom="16dp"
         android:layout_width="match_parent"

@@ -26,7 +26,7 @@
             />
 
         <EditText
-            android:id="@+id/edt_email"
+            android:id="@+id/et_email"
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -38,17 +38,27 @@
             android:textColor="#ffffff"/>
 
         <EditText
-            android:id="@+id/edt_pass"
+            android:id="@+id/et_pass"
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:hint="Password"
-            android:inputType="textPassword"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textColorHint="#ffffff"
             android:paddingBottom="16dp"
             android:textColor="#ffffff"/>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New"
+            android:id="@+id/tv_respond3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
 
     </LinearLayout>
 
